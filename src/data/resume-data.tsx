@@ -30,12 +30,17 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "University of Lower Silesia DSW (current)",
-      degree:
-        "Engineer's degree in Computer Science - Cloud Systems and Applications",
+      school: "University of Lower Silesia DSW",
+      degree: "Engineer's degree in Computer Science - Cloud Systems and Applications",
       start: "2022",
       end: "2025",
     },
+    {
+      school: "ZSP Oleśnica",
+      degree: "IT Technical School",
+      start: "2018",
+      end: "2022",
+    }
   ],
   cert_and_award: [
     {
@@ -45,23 +50,20 @@ export const RESUME_DATA = {
       when: "2023",
     },
     {
-      what: "Introduction to Cybersecurity - Cisco Networking Academy",
-      desc:
-        "Completed Cisco's Intro to Cybersecurity course.",
+      what: "AWS Educate Certificates",
+      desc: "Comprehensive cloud computing certification series including Cloud Operations, Compute Services, Storage Solutions, and Cloud Fundamentals 101.",
+      when: "2023",
+    },
+    {
+      what: "Introduction to Cybersecurity - Cisco",
+      desc: "Completed Cisco's comprehensive cybersecurity fundamentals course, covering security best practices and threat prevention.",
       when: "2023",
     },
     {
       what: "PCAP: Programming Essentials in Python",
-      desc:
-        "Attained PCAP certification in Python programming.",
+      desc: "Advanced Python programming certification demonstrating proficiency in Python development and automation.",
       when: "2023",
-    },
-    {
-      what: "AWS Educate Certificates",
-      desc:
-        "10+ AWS Educate certificates in various cloud computing topics.",
-      when: "2023",
-    },
+    }
   ],
   work: [
     {
@@ -72,58 +74,65 @@ export const RESUME_DATA = {
       logo: DolbyLogo,
       start: "08.2023",
       end: "now",
-      description:
-        "Implemented new testing tools and test cases, worked on improving the tests. Technologies: Python, Pytest, JSON, Docker, AWS, Linux, Bash",
+      description: "Architected and implemented an LLM-powered test analysis system, reducing analysis time from 4+ hours to under 1 minute. Designed cloud-native testing infrastructure using AWS services (EC2, S3, Lambda). Managed CI/CD pipelines with GitLab CI, implementing automated testing and deployment practices. Technologies: Python, Pytest, AWS, Docker, Linux, Bash, GitLab CI, LLM",
     },
     {
       company: "ManaCode s. c.",
       link: "",
-      badges: [],
+      badges: ["Remote"],
       title: "Main Programmer and Co-owner",
       start: "08.2022",
       end: "08.2023",
-      description:
-        "Co-owner of ManaCode s. c. civil partnership providing programming services. Technologies: React, React Native, JavaScript, Redux, Expo, Git, GitLab, Jira, Linux, Bash, GitLab, Nginx, SSH, SSL, Cloud, Scrum, Agile",
+      description: "Established DevOps practices including Git workflows and automated deployment pipelines. Implemented containerized development environments using Docker. Managed cloud infrastructure ensuring high availability. Technologies: React, Docker, GitLab CI, Linux, Nginx, Cloud Services, Infrastructure Management",
     },
     {
       company: "Adam Świrkowski",
       link: "",
-      badges: [],
-      title: "Professional Practice with React Native",
+      badges: ["Remote"],
+      title: "React Native Internship",
       start: "10.2021",
       end: "10.2022",
-      description:
-        "Helping with developing React Native application for a client. Technologies: React Native, TypeScript, Redux, Expo, Git, GitLab, Jira, Scrum, Agile",
+      description: "Contributed to React Native application development while implementing CI/CD practices. Collaborated in Agile environment using Jira and GitLab. Technologies: React Native, TypeScript, Redux, Git, GitLab, Jira",
     },
     {
       company: "SkillWeb",
       link: "skillweb.pl",
-      badges: [],
+      badges: ["Remote"],
       title: "WordPress Developer",
       start: "03.2021",
       end: "11.2021",
-      description:
-        "Developing WordPress websites for clients, helping with sites deployement. Technologies: WordPress, PHP, HTML, CSS",
-    },
+      description: "Managed deployment and hosting infrastructure for WordPress sites, implementing automated backup solutions and security measures. Technologies: WordPress, PHP, Infrastructure Management, Security Implementation",
+    }
   ],
   skills: [
-    "Python",
-    "Pytest",
-    "JavaScript",
-    "TypeScript",
-    "React/React Native",
-    "Node.js",
-    "MySQL",
-    "Git",
+    // Cloud & DevOps
+    "AWS (EC2, S3, Lambda)",
     "Docker",
-    "AWS",
-    "Linux",
-    "Bash",
-    "WordPress",
+    "GitLab CI/CD",
+    "Infrastructure as Code",
+    "Linux Administration",
+    "Bash Scripting",
+    "Cloud Architecture",
     "Nginx",
-    "LLM",
-    "Artificial Intelligence",
-    "Object-Oriented Programming",
+    // Programming
+    "Python",
+    "JavaScript/TypeScript",
+    "Node.js",
+    // AI & Automation
+    "LLM Implementation",
+    "MLOps",
+    "Test Automation",
+    // Testing
+    "Pytest",
+    "Test Framework Design",
+    // Tools
+    "Git",
+    "VS Code",
+    "MySQL",
+    "React/React Native",
+    // Methodologies
+    "Agile/Scrum",
+    "DevOps Practices",
     "Cloud Computing",
     "Computer Networking",
   ],
