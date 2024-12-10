@@ -178,7 +178,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Colors Game",
+      title: "FantasyRatBot",
       techStack: [
         "Side Project",
         "Python",
